@@ -1,0 +1,5 @@
+Experiment,Test Accuracy,Test Loss,Strategy
+1 — Feature Extraction,0.8877,0.3512,Frozen base
+2 — Fine-Tuning,0.9021,0.311,Last 20 layers
+3 — Gradual Unfreezing,0.9099,0.3005,Block-by-block
+4 — Layer-wise LR Decay,0.9129,0.2947,Decayed LR per group

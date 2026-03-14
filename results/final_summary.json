@@ -1,0 +1,22 @@
+{
+    "best_experiment": "Layer-wise LR Decay",
+    "best_model_path": "models/exp4_layerwise_lr.keras",
+    "results": {
+        "Feature Extraction": {
+            "test_accuracy": 0.8877,
+            "test_loss": 0.3512
+        },
+        "Fine-Tuning": {
+            "test_accuracy": 0.9021,
+            "test_loss": 0.311
+        },
+        "Gradual Unfreezing": {
+            "test_accuracy": 0.9099,
+            "test_loss": 0.3005
+        },
+        "Layer-wise LR Decay": {
+            "test_accuracy": 0.9129,
+            "test_loss": 0.2947
+        }
+    }
+}
